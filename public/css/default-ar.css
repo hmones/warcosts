@@ -1,0 +1,184 @@
+
+@font-face {
+    font-family: 'HelveticaNeueArabic-light';
+    src: url('../font/helveticaneueltw20-light.eot');
+    src: url('../font/helveticaneueltw20-light.eot?#iefix') format('embedded-opentype'),
+        url('../font/helveticaneueltw20-light.woff') format('woff'),
+        url('../font/helveticaneueltw20-light.ttf') format('truetype'),
+        url('../font/helveticaneueltw20-light.svg#HelveticaNeueArabic') format('svg');
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'HelveticaNeueArabic-normal';
+    src: url('../font/helveticaneueltw20-roma.eot');
+    src: url('../font/helveticaneueltw20-roma.eot?#iefix') format('embedded-opentype'),
+        url('../font/helveticaneueltw20-roma.woff') format('woff'),
+        url('../font/helveticaneueltw20-roma.ttf') format('truetype'),
+        url('../font/helveticaneueltw20-roma.svg#HelveticaNeueArabic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'HelveticaNeueArabic-bold';
+    src: url('../font/helveticaneueltw20-bold.eot');
+    src: url('../font/helveticaneueltw20-bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/helveticaneueltw20-bold.woff') format('woff'),
+        url('../font/helveticaneueltw20-bold.ttf') format('truetype'),
+        url('../font/helveticaneueltw20-bold.svg#HelveticaNeueArabic') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+h1, h2, h3, h4, h5, .promise-text, .question, .answer , .counter span{
+    font-family: 'HelveticaNeueArabic-normal', Tahoma;
+    font-weight: Normal !important;
+}
+
+h1{ font-size: 5em; margin: 10px; padding-bottom: 25px; font-family: HelveticaNeueArabic-normal}
+h2{font-size: 1.5em; margin: 2px;}
+h3{font-size: 1.1em; margin: 2px;}
+h4{font-size: 1.8em; padding-bottom: 10px;margin-top: 10px;}
+
+
+h4 i{
+    margin-top:9px;
+    margin-left: 9px;
+}
+
+
+body {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+/* Custom container */
+.container-narrow {
+    margin: 0 auto;
+    max-width: 700px;
+
+}
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+#container{
+    position: relative;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    margin: 60px 0;
+    text-align: center;
+}
+.jumbotron h1 {
+    font-size: 72px;
+    line-height: 1;
+}
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+    margin: 60px 0;
+}
+.marketing p + h4 {
+    margin-top: 28px;
+}
+
+
+html, body {
+    width:  100%;
+    height: 100%;
+    margin: 0px;
+}
+body {
+    background-image: url(../img/bg.svg);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    padding: 0;
+}
+canvas {
+    position: fixed;
+    height: 100%;
+    left:0;
+    bottom:0 !important;
+    opacity: 0.5;
+}
+
+#header_logo {
+    background-image: url(../img/logo.png);
+    width: 227px;
+    height: 157px;
+
+}
+
+
+#header_hashtag{
+    background-image: url(../img/hashtag.png);
+    width: 215px;
+    height: 111px;
+}
+
+
+.ig h2, .counter{
+    text-align: center;
+}
+
+.counter{
+}
+
+.counter table{
+    color: #fff;
+    font-family: 'Offside', cursive;
+    letter-spacing: 5px;
+    font-size: 3.5em;
+    line-height: 1em;
+    width: 70%;
+    margin: 0 auto;
+    background: #ca0318;
+}
+
+.counter td{
+    text-align: center;
+}
+.counter .count {
+    font-size: 0.6em;
+    background: #333132;
+    width: 100%;
+}
+
+.counter  .text{
+    font-family: 'HelveticaNeueArabic-normal', Tahoma;
+    background: #8a0f12;
+    font-size: 0.6em;
+
+}
+
+.footer{
+    color:#f3f3f3;
+}
+
+.footer a{
+    color:#e6e7e8;
+}
+
+h2 {
+    padding-bottom: 5px;
+}
+
+#social{
+    direction: ltr;
+    text-align: right;
+    position: absolute;
+    left: 0px;
+    top: 112px;
+}

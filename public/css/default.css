@@ -1,0 +1,238 @@
+@media screen and (max-width: 768px) {
+    table {
+        width: 100% !important;
+    }
+
+    table .total {
+        background-color: #952528 !important;
+        padding: 0 !important;
+    }
+
+    table tr {
+        padding-bottom: 0 !important;
+    }
+
+    .ui.inverted.black.table.count {
+        padding-top: 25px !important;
+        padding-bottom: 20px !important;
+    }
+
+    body {
+        background-size: 1000px !important;
+        background-position: bottom !important;
+        background-attachment: fixed;
+    }
+}
+
+.footer-text {
+    background-color: #952528 !important;
+    opacity: 0.6;
+}
+
+.ui.inverted.black.table.count {
+    background-color: #4d4d4d !important;
+    border-radius: 0 !important;
+}
+
+h2 i {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.fb-like {
+    margin: 0px 0px 0px 10px;
+}
+
+/* post */
+.icon-xlarge {
+    font-size: 1.8em;
+}
+
+.post .post-meta i {
+    color: #999;
+}
+
+.post-meta .icons-share {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+
+.post-meta .icon-twitter-sign, .post-meta .icon-facebook-sign {
+    color: #ddd
+}
+
+.post .post-meta i {
+    font-style: normal;
+    margin-left: 10px;
+    font-size: 12px
+}
+
+.post-meta {
+    position: relative;
+}
+
+.post-meta a {
+    text-decoration: none
+}
+
+
+.icon-facebook-sign.hover {
+    color: #133783 !important;
+}
+
+.icon-twitter-sign.hover {
+    color: #3C8FC9 !important;
+}
+
+.post img {
+    width: 200px;
+    display: block;
+    padding: 10px 0px;
+}
+
+.post iframe {
+    margin-top: 10px;
+}
+
+.top-icons .icon-calendar, .top-icons .icon-list-alt {
+    color: #999;
+}
+
+.top-icons {
+    color: #999;
+}
+
+.post-meta .thumbs-down a, #people-satisfaction .thumbs-down {
+    color: red;
+    cursor: pointer
+}
+
+.post-meta .thumbs-up a, #people-satisfaction .thumbs-up {
+    color: green;
+    cursor: pointer
+}
+
+.post-meta .disabled {
+    color: grey !important;
+    cursor: not-allowed !important;
+}
+
+/* /post */
+
+
+/* promise */
+.icon-minus-sign {
+    color: red
+}
+
+.icon-ok {
+    color: forestgreen
+}
+
+.icon-cog, .icon-cogs {
+    color: darkorange
+}
+
+.icon-calendar {
+    color: #08C
+}
+
+.promise .promise-icon {
+    font-size: 1.1em
+}
+
+.promise.promise-done .promise-text,
+.promise.promise-done .promise-text a {
+    color: forestgreen;
+}
+
+.promise.promise-inprogress .promise-text,
+.promise.promise-inprogress .promise-text a {
+    color: darkorange;
+}
+
+.promise.promise-inprogress .promise-text a:hover {
+    color: orange
+}
+
+.promise.promise-not-done .promise-text,
+.promise.promise-not-done .promise-text a {
+    color: grey
+}
+
+.icon-group {
+    padding: 0px 10px
+}
+
+.notification {
+    color: red;
+    font-size: 0.8em
+}
+
+.promise .meta-icons i, .top-icons i {
+    color: #aaa;
+    margin-right: 5px;
+    font-size: 1.2em;
+}
+
+.promise .meta-icons {
+    margin-left: 30px;
+}
+
+/* /promise */
+
+
+/* meter */
+#header-meter .progress {
+    height: 15px;
+}
+
+#header-meter #people-satisfaction .progress {
+    height: 15px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+}
+
+#header-meter h4 {
+    font-size: 1.5em
+}
+
+.promise {
+    padding: 20px;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px #888;
+    box-shadow: 0 0 5px #888;
+}
+
+.promise p {
+    color: grey;
+
+}
+
+.bigno {
+    font-size: 6em;
+    margin-top: 20px;
+    padding: 10px;
+    font-family: 'Arial';
+
+}
+
+h2 {
+    padding-bottom: 40px;
+}
+
+
+.description {
+    font-family: 'HelveticaNeueArabic-light', Tahoma;
+}
+
+.promise .footer {
+    background: #f7f7f9;
+    padding: 10px 20px;
+    margin: -20px;
+    margin-top: 10px;
+    color: rgba(127, 127, 127, 0.79);
+    font-family: 'HelveticaNeueArabic-light', Tahoma;
+}
