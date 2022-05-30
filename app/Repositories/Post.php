@@ -3,7 +3,6 @@
 namespace App\Repositories;
 
 use App\Http\Clients\GoogleSheets;
-use Illuminate\Support\Carbon;
 use Illuminate\Support\Collection;
 
 class Post
@@ -29,9 +28,9 @@ class Post
         return collect($data ?? [])->map(fn($record) => [
             'date'    => data_get($record, 0),
             'country' => data_get($record, 1),
-            'type'    => data_get($record, 2),
-            'source'  => data_get($record, 3),
-            'number'  => (int)data_get($record, 4)
+            'type'    => data_get($record, 4),
+            'source'  => data_get($record, 5),
+            'number'  => data_get($record, 6)
         ]);
     }
 
@@ -46,9 +45,18 @@ class Post
 
         foreach ($types as $type) {
             $query = $posts->where('type', $type);
+            $ukraine = $query->where('country', 'ua')->first();
+            $russia = $query->where('country', 'ru')->first();
+
             $$type = (object)[
-                'total' => $query->sum('number'),
-                'today' => $query->where('date', now()->format('d.m.Y'))->sum('number')
+                'ukraine' => (object) [
+                    'total' => data_get($ukraine, 'number', 0),
+                    'date'  => data_get($ukraine, 'date', now()->format('d.m.Y'))
+                ],
+                'russia'  => (object) [
+                    'total' => data_get($russia, 'number', 0),
+                    'date'  => data_get($russia, 'date', now()->format('d.m.Y'))
+                ]
             ];
         }
 

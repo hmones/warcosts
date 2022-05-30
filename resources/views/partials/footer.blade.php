@@ -1,7 +1,7 @@
 <div class="ui segment footer-text">
     <h3 style="color: white;">
         We have fact checked all of our sources. However, we do not bare any responsibility if numbers do not match reality. To
-        check the sources of our data please visit our public open spreadsheet which has the numbers, sources and more information |
+        check the sources of our data please visit our public open spreadsheet which has the numbers, sources and more information. If you find any number that needs to be updated or you have a more trusted source please leave a comment in the spreadsheet or send us directly the info with the source at info@warcosts.com |
         <a style="color: white;text-decoration:underline;" href="https://docs.google.com/spreadsheets/d/1UBFT8tyj-_K9IEMYBaqdL_Min8EuEjXE5PHd_m382pA" target="_blank" rel="noopener">
             Sources
         </a>
@@ -12,7 +12,7 @@
     <a href="mailto:info@warcosts.com" target="_blank" style="color: white">
         <i class="email icon"> </i>info[at]warcosts.com
     </a>
-     |
+    |
     <a href="http://twitter.com/thewarcosts" target="_blank" style="color: white">
         <i class="twitter icon"> </i>Twitter
     </a>

@@ -15,7 +15,7 @@ class GoogleSheets
         $this->client = $this->getClient();
         $this->service = new Sheets($this->client);
         $this->documentId = '1UBFT8tyj-_K9IEMYBaqdL_Min8EuEjXE5PHd_m382pA';
-        $this->range = 'Data!A2:E';
+        $this->range = 'Data!A2:G';
     }
 
     public function getClient(): Client
